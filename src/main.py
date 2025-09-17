@@ -3,4 +3,10 @@ import unroll as ur
 print("Hello!, Good Morning!")
 
 person=ur.Person()
-print(person.name)
+young=ur.Person("Michael Hepburn")
+person.addFriend(young)
+
+person3=ur.Person("Other Michael")
+person.addFriend(person3)
+
+print(person.friends)
