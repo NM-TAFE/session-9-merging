@@ -8,7 +8,6 @@ class Person:
     def addFriend(self,other_person):
         self.friends.append(other_person)
 
-
 def search_tree(person,name_to_find):
     for friend in person.friends:
         if friend.name==name_to_find:
