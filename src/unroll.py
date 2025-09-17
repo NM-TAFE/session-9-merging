@@ -8,6 +8,8 @@ class Person:
     def addFriend(self,other_person):
         self.friends.append(other_person)
 
+    def __str__(self):
+        return self.name  #research this code nomenclature
 
 def search_tree(person,name_to_find):
     for friend in person.friends:
